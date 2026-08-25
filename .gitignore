@@ -1,0 +1,33 @@
+# Local/private configuration
+.env
+.env.*
+!.env.example
+config.local.json
+config/*.local.json
+
+# Generated artifacts and private knowledge
+outputs/
+output/
+knowledge-base/
+knowledge_base/
+knowledge/
+kb/
+data/
+
+# Common source documents and exports that may contain private data
+*.xlsx
+*.xls
+*.csv
+*.jsonl
+*.pdf
+*.doc
+*.docx
+
+# Local tooling
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.vscode/

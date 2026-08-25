@@ -1,0 +1,8 @@
+{
+  "output_dir": "outputs",
+  "knowledge_base_dir": "knowledge-base",
+  "event_metadata_path": "data/event-metadata.xlsx",
+  "drd_schema": "schemas/drd.schema.json",
+  "event_name_pattern": "{app}_{domain}_{page}_{module}_{element}_{action}",
+  "missing_segment": "none"
+}
