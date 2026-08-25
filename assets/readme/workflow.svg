@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Five-step PRD to DRD workflow</title>
+  <desc id="desc">PRD input is analyzed into a draft, held at a human approval gate, converted to DRD JSON, and checked against a schema.</desc>
+  <rect width="1200" height="360" rx="26" fill="#F4F7FB"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif">
+    <text x="56" y="58" fill="#0B1020" font-size="34" font-weight="750">一条不会越过你的生成链路</text>
+    <text x="56" y="91" fill="#5E6B85" font-size="19">草案是讨论界面；确认是硬门禁；Schema 是交付底线。</text>
+    <path d="M150 196H1062" stroke="#CAD3E2" stroke-width="4" stroke-linecap="round"/>
+    <g transform="translate(78 128)">
+      <circle cx="72" cy="68" r="46" fill="#0B1020"/>
+      <text x="72" y="76" text-anchor="middle" fill="#F6F8FC" font-size="24" font-weight="750">PRD</text>
+      <text x="72" y="142" text-anchor="middle" fill="#0B1020" font-size="21" font-weight="700">读取需求</text>
+      <text x="72" y="170" text-anchor="middle" fill="#69758D" font-size="18">事实与边界</text>
+    </g>
+    <g transform="translate(306 128)">
+      <circle cx="72" cy="68" r="46" fill="#DDF9F6" stroke="#52CFC5" stroke-width="2"/>
+      <text x="72" y="75" text-anchor="middle" fill="#096B68" font-size="22" font-weight="750">分析</text>
+      <text x="72" y="142" text-anchor="middle" fill="#0B1020" font-size="21" font-weight="700">形成草案</text>
+      <text x="72" y="170" text-anchor="middle" fill="#69758D" font-size="18">问题与采集点</text>
+    </g>
+    <g transform="translate(534 128)">
+      <circle cx="72" cy="68" r="50" fill="#FFF0DC" stroke="#FFB454" stroke-width="3"/>
+      <path d="M72 46v44" stroke="#B86610" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="72" cy="68" r="25" fill="none" stroke="#B86610" stroke-width="3"/>
+      <text x="72" y="142" text-anchor="middle" fill="#0B1020" font-size="21" font-weight="700">人工确认</text>
+      <text x="72" y="170" text-anchor="middle" fill="#9A5915" font-size="18">未确认，不继续</text>
+    </g>
+    <g transform="translate(762 128)">
+      <circle cx="72" cy="68" r="46" fill="#E8EDF5" stroke="#AAB6CB" stroke-width="2"/>
+      <text x="72" y="75" text-anchor="middle" fill="#27334A" font-size="22" font-weight="750">JSON</text>
+      <text x="72" y="142" text-anchor="middle" fill="#0B1020" font-size="21" font-weight="700">生成 DRD</text>
+      <text x="72" y="170" text-anchor="middle" fill="#69758D" font-size="18">结构化交付</text>
+    </g>
+    <g transform="translate(990 128)">
+      <circle cx="72" cy="68" r="46" fill="#DDF9F6" stroke="#52CFC5" stroke-width="2"/>
+      <path d="M50 68l15 15 30-34" fill="none" stroke="#08736F" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="72" y="142" text-anchor="middle" fill="#0B1020" font-size="21" font-weight="700">通过校验</text>
+      <text x="72" y="170" text-anchor="middle" fill="#69758D" font-size="18">Schema ✓</text>
+    </g>
+  </g>
+</svg>
